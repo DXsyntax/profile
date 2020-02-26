@@ -91,7 +91,7 @@ font-size: 30px;
 /* Float four columns side by side */
 .column {
   float: left;
-  width: 25%;
+  width: 50%;
   padding: 0 10px;
   box-sizing: border-box;
   /*margin: 2px;*/
@@ -145,5 +145,7 @@ width: 10px;
 
 .card-small-container {
   display: inline-block;
-  max-width: 200px;
+  /*max-width: 300px; instead of setting width manually just set one that ends it no matter what*/
+  width: 294.8px;
+  background-color: red;
  }
