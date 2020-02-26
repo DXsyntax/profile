@@ -2,10 +2,10 @@
 
 
 
-/*body {
+body {
   background-color: #121212;
 
- }*/
+ }
 
  h1 {
   color: #35FF69;
@@ -144,7 +144,7 @@ width: 10px;
 
 
 .card-small-container {
-  display: inline-block;
+  display: inline-block; /* after cleaning up code must break this to see if you were indeed missing inline-block */
   /*max-width: 300px; instead of setting width manually just set one that ends it no matter what*/
   width: 294.8px;
   background-color: red;
