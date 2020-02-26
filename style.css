@@ -76,22 +76,11 @@ font-size: 30px;
 
 }
 
-/*.card {
-  border-radius: 25px; unable to get the corners to smooth out
-
- }
-
-.container {
-  display; flex;
-  position: relative;
-
- }*/
-
 
 /* Float four columns side by side */
 .column {
   float: left;
-  width: 50%;
+  width: 25%;
   padding: 0 10px;
   box-sizing: border-box;
   /*margin: 2px;*/
@@ -111,14 +100,14 @@ font-size: 30px;
 }
 
 /* Responsive columns */
-/*@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .column {
-    width: 100%;
+    width: 25%;
     display: block;
     margin-bottom: 20px;
     box-sizing: border-box;
   }
-}*/
+}
 
 /* Style the counter cards */
 .card {
@@ -131,17 +120,8 @@ font-size: 30px;
 }
 
 .card-0 {
-
   border-radius: 10px;
-
-
  }
-
-/*.top-card {
-width: 10px;
-
-*/
-
 
 .card-small-container {
   display: inline-block; /* after cleaning up code must break this to see if you were indeed missing inline-block */
