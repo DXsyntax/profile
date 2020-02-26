@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Krona+One|Lacquer|Source+Sans+Pro|Trade+Winds&display=swap');
+
+
+
+body {
+  background-color: #121212;
+
+ }
+
+ h1 {
+  color: #35FF69;
+  font-family: 'Trade Winds';
+
+  }
+
+  .sub-head-1 {
+    color: #89043D;
+    font-family: 'Krona One';
+   }
+
+  .sub-head-2 {
+  color: #2FE6DE;
+  font-family: 'Source Sans Pro';
+
+  }
+
+  .sub-head-3 {
+    color: #F75C03;
+    font-family: 'Source Sans Pro';
+
+  }
+
+.sub-head-4 {
+  color: #8783D1;
+  font-family: 'Source Sans Pro';
+
+  }
+
+.sub-head-5 {
+  color: #FFD131;
+  font-family: 'Lacquer';
+  font-weight: 800;
+
+ }
+
+.social-btn {
+
+color: #EFC69B;
+font-size: 30px;
+
+}
+
+.social-btn:hover {
+  background-color: #381460;
+  color: #05dfd7;
+
+}
+
+.fa-instagram:hover {
+  color: red;
+
+}
+
+.fa-github:hover {
+  color: red;
+
+}
+
+.fa-linkedin:hover {
+  color: red;
+
+}
+
+.fa-medium:hover {
+  color: red;
+
+}
+
+/*.card {
+  border-radius: 25px; unable to get the corners to smooth out
+
+ }
+
+.container {
+  display; flex;
+  position: relative;
+
+ }*/
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  box-sizing: border-box;
+  /*margin: 2px;*/
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  box-sizing: border-box;
+  margin: 10px;
+
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.card-0 {
+
+  border-radius: 10px;
+
+
+ }
